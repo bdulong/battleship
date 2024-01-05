@@ -51,30 +51,23 @@ h1 {
     height: 100vh;
     width: 100vw;
     display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
+    place-items: center;
+}
+
+.placement-bateau img, .placement-bateau .column {
+    grid-area: 1 / 1;
 }
 
 .placement-bateau img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+    z-index: 1;
 }
 
 .column {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
+    z-index: 2;
 }
 
 .column > *:not(:last-child) {
