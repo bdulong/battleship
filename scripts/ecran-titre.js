@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     boutonJouer.addEventListener('click', function() {
         ecranTitre.style.display = 'none';
-        placementBateau.style.display = 'grid';
+        placementBateau.style.display = 'flex';
     });
 });
