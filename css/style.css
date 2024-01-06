@@ -3,6 +3,11 @@
     src: url(../fonts/stencil-bold.ttf);
 }
 
+@font-face {
+    font-family: CourierNewBold;
+    src: url(../fonts/courbd.ttf);
+}
+
 body {
     background-color: #000000;
 }
@@ -97,4 +102,25 @@ h1 {
     width: 20px;
     border-radius: 50%;
     background-color: #3C3C3C;
+}
+
+.bouton__placement-bateau__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.bouton__placement-bateau__container > *:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+.bouton__placement-bateau {
+    padding: 20px 23px 15px 23px;
+    border: #33FF00 solid 10px;
+    color: #33FF00;
+    font-family: CourierNewBold;
+    font-size: 24px;
 }
