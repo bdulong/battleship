@@ -124,3 +124,8 @@ h1 {
     font-family: CourierNewBold;
     font-size: 24px;
 }
+
+.bouton__placement-bateau:hover {
+    background-color: #33FF00;
+    color: #000000;
+}
